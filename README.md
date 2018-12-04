@@ -24,9 +24,10 @@ Parameters "tar_ip", "sender_port", and "recver_port" need to be defined. <br />
 "sender_port": port # for getting the redirected gaze video from the remote user <br />
 
 # calibrating the focal length of camera
-Execute the script "focal_length_calibration.ipynb" or "focal_length_calibration.py" and the estimated focal length will be shown at top-left corner. <br />
+Execute the script "focal_length_calibration.ipynb" or "focal_length_calibration.py" and the estimated focal length (f) will be shown at top-left corner of window. <br />
 Step 1: Please place your head in front of the camera about 50 cm <br />
 Step 2: Please insert your interpupillary distance (the distance between two eyes) in the code or use the average value 6.3 cm <br />
+![Calibration Example](https://github.com/chihfanhsu/gaze_correction/blob/master/gaze_correction_system/imgs/calibration.png)
 
 # Implementation Environment
 Python 3.5.3 <br />
