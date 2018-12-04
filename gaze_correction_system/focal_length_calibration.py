@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# # Please place your head infront of the camera about 50 cm
+# # Please place your head in front of the camera about 50 cm
 
 # In[ ]:
 
@@ -9,7 +9,7 @@
 d = 50
 
 
-# # Please insert you Pupillary distance (distance between two eyes) or use the average value 6.3 cm
+# # Please insert your interpupillary distance (the distance between two eyes) in the code or use the average distance 6.3 cm
 
 # In[ ]:
 
