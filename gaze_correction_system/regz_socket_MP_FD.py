@@ -152,9 +152,9 @@ class gaze_redirection_system:
         with tf.Graph().as_default() as g:
             # define placeholder for inputs to network
             with tf.name_scope('inputs'):
-                self.LE_input_img = tf.placeholder(tf.float32, [None, conf.height, conf.width, conf.channel], name="input_img") # [None, 41, 51, 3]
-                self.LE_input_fp = tf.placeholder(tf.float32, [None, conf.height, conf.width,conf.ef_dim], name="input_fp") # [None, 41, 51, 14]
-                self.LE_input_ang = tf.placeholder(tf.float32, [None, conf.agl_dim], name="input_ang") ## [None, 41, 51, 2]
+                self.LE_input_img = tf.placeholder(tf.float32, [None, conf.height, conf.width, conf.channel], name="input_img")
+                self.LE_input_fp = tf.placeholder(tf.float32, [None, conf.height, conf.width,conf.ef_dim], name="input_fp")
+                self.LE_input_ang = tf.placeholder(tf.float32, [None, conf.agl_dim], name="input_ang")
                 self.LE_phase_train = tf.placeholder(tf.bool, name='phase_train') # a bool for batch_normalization
 
             self.LE_img_pred, _, _ = model.inference(self.LE_input_img, self.LE_input_fp, self.LE_input_ang, self.LE_phase_train, conf)
@@ -174,9 +174,9 @@ class gaze_redirection_system:
         with tf.Graph().as_default() as g2:
             # define placeholder for inputs to network
             with tf.name_scope('inputs'):
-                self.RE_input_img = tf.placeholder(tf.float32, [None, conf.height, conf.width, conf.channel], name="input_img") # [None, 41, 51, 3]
-                self.RE_input_fp = tf.placeholder(tf.float32, [None, conf.height, conf.width,conf.ef_dim], name="input_fp") # [None, 41, 51, 14]
-                self.RE_input_ang = tf.placeholder(tf.float32, [None, conf.agl_dim], name="input_ang") ## [None, 2]
+                self.RE_input_img = tf.placeholder(tf.float32, [None, conf.height, conf.width, conf.channel], name="input_img")
+                self.RE_input_fp = tf.placeholder(tf.float32, [None, conf.height, conf.width,conf.ef_dim], name="input_fp")
+                self.RE_input_ang = tf.placeholder(tf.float32, [None, conf.agl_dim], name="input_ang")
                 self.RE_phase_train = tf.placeholder(tf.bool, name='phase_train') # a bool for batch_normalization
 
             self.RE_img_pred, _, _ = model.inference(self.RE_input_img, self.RE_input_fp, self.RE_input_ang, self.RE_phase_train, conf)
