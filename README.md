@@ -26,7 +26,7 @@ Step 2, please insert your interpupillary distance (the distance between two eye
 Push 'r' key when focusing the "local" window and gaze your head on the "remote" window to start gaze correction. <br />
 Push 'q' key when focusing the "local" window to leave the program. <br />
 <br />
-P.S. The video will delay at beginning because the TCP socket, and the video will be on time after few seconds. <br />
+*The video will delay at beginning because the TCP socket, and the video will be on time after few seconds. <br />
 <br />
 ![System usage Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/system_usage.png)
 
