@@ -31,10 +31,10 @@ P.S. The video will delay at beginning because the TCP socket, and the video wil
 ![System usage Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/system_usage.png)
 
 # For multi-user
-Parameters "tar_ip", "sender_port", and "recver_port" need to be defined. <br />
-"tar_ip": target IP address <br />
-"sender_port": port # for sending the redirected gaze video to the remote user <br />
-"sender_port": port # for getting the redirected gaze video from the remote user <br />
+The codes at the local and remote side are the same. However, parameters "tar_ip", "sender_port", and "recver_port" need to be defined at both side. <br />
+"tar_ip": the other user's IP address <br />
+"sender_port": port # for sending the redirected gaze video to the other user <br />
+"sender_port": port # for getting the redirected gaze video from the other user <br />
 
 # Implementation Environment
 Python 3.5.3 <br />
