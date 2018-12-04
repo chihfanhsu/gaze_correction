@@ -16,6 +16,7 @@ Parameters "P_c_x", "P_c_y", "P_c_z", "S_W", and "S_H" need to be personalized. 
 # Starting to correct your gaze!
 Push 'r' on the "local" window, and gaze your head on the "remote" window. <br />
 Push 'q' on the "local" window to leave the program. <br />
+![Calibration Example](https://github.com/chihfanhsu/gaze_correction/blob/master/gaze_correction_system/imgs/system_usage.png)
 
 # For multi-user
 Parameters "tar_ip", "sender_port", and "recver_port" need to be defined. <br />
