@@ -1,4 +1,6 @@
 Correcting gaze by warping-based convolutional neural network.
+# Paper
+Look at Me! Correcting Eye Gaze in Live Video Communication [paper](https://drive.google.com/file/d/1Kydzyak47mkn7oTxm4H6dKkupmhZ2Nkp/view?usp=sharing)
 
 # System usage
 ```python
@@ -39,3 +41,6 @@ The codes at the local and remote sides are the same. However, parameters "tar_i
 # Implementation Environment
 Python 3.5.3 <br />
 Tensorflow 1.8.0 <br />
+
+# DIRL Dataset
+TBA
