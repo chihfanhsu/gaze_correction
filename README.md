@@ -5,7 +5,7 @@ Correcting gaze by warping-based convolutional neural network.
 python regz_socket_MP_FD.py
 ```
 # Parameters need to be personalized in the "config.py"
-The positions of all parameters are illustrated in the following figure. P_o is the original point (0,0,0) which is defind at the center of the screen. <br />
+The positions of all parameters are illustrated in the following figure. P_o is the original point (0,0,0) which is defined at the center of the screen. <br />
 <br />
 Parameters "P_c_x", "P_c_y", "P_c_z", "S_W", "S_H", and "f" need to be personalized before using the system. <br /> 
 "P_c_x", "P_c_y", and "P_c_z": relative distance between the camera position and screen center (cm) <br />
@@ -26,7 +26,7 @@ Step 2, please insert your interpupillary distance (the distance between two eye
 Push 'r' key when focusing the "local" window and gaze your head on the "remote" window to start gaze correction. <br />
 Push 'q' key when focusing the "local" window to leave the program. <br />
 <br />
-*The video will delay at beginning because the TCP socket, and the video will be on time after few seconds. <br />
+*The video will delay at beginning because the TCP socket transmission, nevertheless, the video will be on time after few seconds. <br />
 <br />
 ![System usage Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/system_usage.png)
 
