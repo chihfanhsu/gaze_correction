@@ -37,13 +37,13 @@ Push 'q' key when focusing the "local" window to leave the program. <br />
 ![System usage Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/system_usage.png)
 
 # For online video communication
-The codes at the local and remote sides are the same. However, parameters "tar_ip", "sender_port", and "recver_port" need to be defined at both side. <br />
+The codes at the local and remote sides are the same. However, parameters "tar_ip", "sender_port", and "recver_port" need to be defined at both sides. <br />
 "tar_ip": the other user's IP address <br />
 "sender_port": port # for sending the redirected gaze video to the other user <br />
 "sender_port": port # for getting the redirected gaze video from the other user <br />
 
 # IP setup for self-demo
-The codes at the local and remote sides are the same. However, parameters "tar_ip", "sender_port", and "recver_port" need to be defined at both side. <br />
+The codes at the local and remote sides are the same. However, parameters "tar_ip", "sender_port", and "recver_port" need to be defined at both sides. <br />
 "tar_ip": 127.0.0.1 <br />
 "sender_port": 5005 <br />
 "sender_port": 5005 <br />
