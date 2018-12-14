@@ -1,11 +1,15 @@
 Correcting gaze by warping-based convolutional neural network.
 # Paper
-[Look at Me! Correcting Eye Gaze in Live Video Communication](https://drive.google.com/file/d/1Kydzyak47mkn7oTxm4H6dKkupmhZ2Nkp/view?usp=sharing)
+Under review
+
+# Demo video on YouTube
+[Look at Me! Correcting Eye Gaze in Live Video Communication](https://youtu.be/9nAHINph5a4)
 
 # System usage
 ```python
 python regz_socket_MP_FD.py
 ```
+
 # Parameters need to be personalized in the "config.py"
 The positions of all parameters are illustrated in the following figure. P_o is the original point (0,0,0) which is defined at the center of the screen. <br />
 <br />
