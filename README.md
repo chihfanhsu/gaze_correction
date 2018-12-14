@@ -24,7 +24,7 @@ Step 2, please insert your interpupillary distance (the distance between two eye
 <br />
 ![Calibration Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/calibration.png)
 
-# Starting to correct gaze!
+# Starting to correct gaze! (Self-demo)
 Push 'r' key when focusing the "local" window and gaze your head on the "remote" window to start gaze correction. <br />
 Push 'q' key when focusing the "local" window to leave the program. <br />
 <br />
@@ -32,15 +32,21 @@ Push 'q' key when focusing the "local" window to leave the program. <br />
 <br />
 ![System usage Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/system_usage.png)
 
-# For multi-user
+# For online video communication
 The codes at the local and remote sides are the same. However, parameters "tar_ip", "sender_port", and "recver_port" need to be defined at both side. <br />
 "tar_ip": the other user's IP address <br />
 "sender_port": port # for sending the redirected gaze video to the other user <br />
 "sender_port": port # for getting the redirected gaze video from the other user <br />
 
-# Implementation Environment
+# IP setup for self-demo
+The codes at the local and remote sides are the same. However, parameters "tar_ip", "sender_port", and "recver_port" need to be defined at both side. <br />
+"tar_ip": 127.0.0.1 <br />
+"sender_port": 5005 <br />
+"sender_port": 5005 <br />
+
+# Environmental setup
 Python 3.5.3 <br />
 Tensorflow 1.8.0 <br />
 
-# DIRL Dataset
-TBA
+# DIRL Gaze Dataset
+[Download here!](https://drive.google.com/file/d/1KQ68LTy6U9JbH0xl7dafzmsJoh7u8Dsy/view?usp=sharing)
