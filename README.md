@@ -3,7 +3,7 @@ Correcting gaze by warping-based convolutional neural network.
 Under review
 
 # Demo video on YouTube
-[Look at Me! Correcting Eye Gaze in Live Video Communication](https://youtu.be/9nAHINph5a4)
+[![Look at Me! Correcting Eye Gaze in Live Video Communication](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/YouTube_page.PNG)](https://youtu.be/9nAHINph5a4)
 
 # System usage
 ```python
