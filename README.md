@@ -55,5 +55,5 @@ Tensorflow 1.8.0 <br />
 # DIRL Gaze Dataset
 ![System usage Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/dataset_collection.PNG)
 <br />
-37 volunteers participated in our dataset collection. 100 gaze directions are collected in range +40 to -40 degrees in horizontal and +30 to -30 degrees in vertical, in which 63 and 37 images are fixed and random direction, respectively. The images with closed eyes were removed.
+37 Asian volunteers participated in our dataset collection. 100 gaze directions are collected in range +40 to -40 degrees in horizontal and +30 to -30 degrees in vertical, in which 63 and 37 images are fixed and random direction, respectively. The images with closed eyes were removed.
 [Download here!](https://drive.google.com/file/d/1KQ68LTy6U9JbH0xl7dafzmsJoh7u8Dsy/view?usp=sharing)
