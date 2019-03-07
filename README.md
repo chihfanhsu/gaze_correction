@@ -1,6 +1,6 @@
 Correcting gaze by warping-based convolutional neural network.
 # Paper
-Under review
+To appear on TOMM!
 
 # Demo video on YouTube
 [![Look at Me! Correcting Eye Gaze in Live Video Communication](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/YouTube_page.PNG)](https://youtu.be/9nAHINph5a4)
@@ -51,6 +51,14 @@ The codes at the local and remote sides are the same. However, parameters "tar_i
 # Environmental setup
 Python 3.5.3 <br />
 Tensorflow 1.8.0 <br />
+Cuda V9.0.176 and corresponding cuDnn <br />
+
+# Required packages
+Dlib 18.17.100 <br />
+OpenCV 3.4.1 <br />
+Numpy 1.15.4 + mkl <br />
+pypiwin32 <br />
+scipy 0.19.1 <br />
 
 # DIRL Gaze Dataset
 ![System usage Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/dataset_collection.PNG)
