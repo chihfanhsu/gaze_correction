@@ -1,6 +1,6 @@
 Correcting gaze by warping-based convolutional neural network.
 # Paper
-To appear on TOMM!
+Chih-Fan Hsu, Yu-Shuen Wang, Chin-Laung Lei, and Kuan-Ta Chen, "Look at Me! Correcting Eye Gaze in Live Video Communication," ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), Vol. 15, Issue 2, No. 38, 2019
 
 # Demo video on YouTube
 [![Look at Me! Correcting Eye Gaze in Live Video Communication](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/YouTube_page.PNG)](https://youtu.be/9nAHINph5a4)
