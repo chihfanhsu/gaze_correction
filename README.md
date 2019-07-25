@@ -1,7 +1,8 @@
 Correcting gaze by warping-based convolutional neural network.
 # Paper
+@article{Hsu:2019:LMC:3339884.3311784,<br />
 author = {Hsu, Chih-Fan and Wang, Yu-Shuen and Lei, Chin-Laung and Chen, Kuan-Ta},<br />
- title = {Look at Me\&Excl; Correcting Eye Gaze in Live Video Communication},<br />
+ title = {Look at Me\\\&Excl; Correcting Eye Gaze in Live Video Communication},<br />
  journal = {ACM Trans. Multimedia Comput. Commun. Appl.},<br />
  issue_date = {June 2019},<br />
  volume = {15},<br />
