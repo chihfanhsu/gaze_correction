@@ -1,0 +1,6 @@
+model_checkpoint_path: "dirl_48x64_example_R159-957"
+all_model_checkpoint_paths: "dirl_48x64_example_R143-861"
+all_model_checkpoint_paths: "dirl_48x64_example_R151-909"
+all_model_checkpoint_paths: "dirl_48x64_example_R153-921"
+all_model_checkpoint_paths: "dirl_48x64_example_R154-927"
+all_model_checkpoint_paths: "dirl_48x64_example_R159-957"
