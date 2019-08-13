@@ -1,0 +1,38 @@
+[folders]
+data type:
+-images: recoreded face images.
+-labels: manually fixed anchors (facial landmarks of two eyes)
+
+naming logic:
+.\dirl_gaze_dataset\[data type]\[head pose]\[uid]\[uid]_[head pose]_[gaze direction (H)]_[gaze direction (V)]
+
+[labels]
+data header:
+eye,anchor,x,y
+
+data:
+0,0,755,547
+0,1,785,517
+0,2,836,517
+0,3,873,558
+0,4,829,563
+0,5,785,563
+0,6,818,530
+1,0,1161,539
+1,1,1137,508
+1,2,1081,510
+1,3,1039,557
+1,4,1090,558
+1,5,1133,558
+1,6,1113,524
+
+relative positions:
+eye 0 (right eye)
+   1   2
+0    6    3
+   5   4
+
+eye 1 (left eye)
+   2   1
+3    6    0
+   4   5
