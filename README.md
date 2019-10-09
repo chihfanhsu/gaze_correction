@@ -39,11 +39,11 @@ Parameters "P_c_x", "P_c_y", "P_c_z", "S_W", "S_H", and "f" need to be personali
 <br />
 ![Parameters positions](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/correcting_gaze.png)
 
-# Calibrating the focal length of camera by the attached tools
-Execute the script "focal_length_calibration.ipynb" or "focal_length_calibration.py" to estimated the focal length (f), and the value will be shown at top-left corner of window. <br />
-Steps for caligration:<br />
+# Calibrating the focal length of the camera by the attached tools
+Execute the script "focal_length_calibration.ipynb" or "focal_length_calibration.py" to estimated the focal length (f), and the value will be shown at the top-left corner of the window. <br />
+Steps for calibration:<br />
 Step 1, please place your head in front of the camera about 50 cm (you can change this value in the code) <br />
-Step 2, please insert your interpupillary distance (the distance between two eyes) in the code or use the average value 6.3 cm <br />
+Step 2, please insert your interpupillary distance (the distance between two eyes) in the code or use the average value, 6.3 cm <br />
 <br />
 ![Calibration Example](https://github.com/chihfanhsu/gaze_correction/blob/master/imgs/calibration.png)
 
