@@ -86,5 +86,5 @@ scipy 0.19.1 <br />
 [Download here!](https://sites.google.com/site/chihfanhsuwebsite/dataset)
 
 # Several Exciting Projects
-[![2019 Eye Contact Correction using Deep Neural Networks]](https://arxiv.org/pdf/1906.05378.pdf)
+[![2019 Eye Contact Correction using Deep Neural Networks]](https://arxiv.org/pdf/1906.05378.pdf) <br />
 [![2019 Photo-Realistic Monocular Gaze Redirection Using Generative Adversarial Networks]](https://arxiv.org/pdf/1903.12530.pdf)
